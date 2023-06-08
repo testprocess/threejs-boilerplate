@@ -7,6 +7,6 @@ app.disable('x-powered-by');
 app.use('/', express.static('src'));
 app.use('/dist', express.static('dist'));
 
-app.listen(7000, err => {
+app.listen(9000, err => {
     console.log(`[ + ] The server is running.`);
 });
